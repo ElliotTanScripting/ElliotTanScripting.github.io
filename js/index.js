@@ -104,6 +104,13 @@ $(".experience_card").click(function() {
     $(this).children(".card_title_layer").toggleClass("card_title_layer_out", 300);
 })
 
+// hovering personal icons
+$(".icon_item").hover(function() {
+    $(this).addClass("icon_text_hover", 1500);
+}, function() {
+    $(this).removeClass("icon_text_hover", 1500);
+})
+
 // hovering contact icons
 $(".contact_icons").hover(function() {
     $(this).addClass("contact_icons_hover", 1500);

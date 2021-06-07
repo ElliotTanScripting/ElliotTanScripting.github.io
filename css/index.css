@@ -661,13 +661,35 @@ a {
 .icon_item {
     width: auto;
     height: auto;
-    padding-left: 7rem;
-    padding-right: 7rem;
-    padding-top: 6rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 6rem;
     position: relative;
+    display: grid;
+    place-items: center;
 }
 
+.icon_item p {
+    text-align: center;
+    position: absolute;
+    padding: 0;
+    white-space: nowrap;
+    transition: all ease-in-out 600ms;
+    z-index: 2;
+    opacity: 0;
+    font-size: 0;
+}
+
+.icon_text_hover p{
+    font-size: 1.8rem;
+    opacity: 1;
+    transform: translateY(-5.5rem);
+}
+
+
+
 .personal_icons {
+    z-index: 3;
     width: 100px;
     height: 100px;
     animation: rotate 10s linear infinite reverse;
@@ -896,10 +918,16 @@ a {
         height: 150px;
     }
     .icon_item {
-        padding-left: 7rem;
-        padding-right: 7rem;
-        padding-top: 3rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        margin-top: 3rem;
     }
+    .icon_text_hover p{
+        font-size: 3rem;
+        opacity: 1;
+        transform: translateY(-5.5rem);
+    }
+
     .personal_icons {
         width: 100px;
         height: 100px;
@@ -1098,13 +1126,21 @@ a {
     }
 
     .icon_item {
-        padding-left: 6rem;
-        padding-right: 6rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+        margin-top: 6rem;
         padding-top: 6rem;
     }
     
-    .personal_icons {
-        width: 80px;
-        height: 80px;
+    .icon_text_hover p{
+        font-size: 5rem;
+        opacity: 1;
+        transform: translateY(-10rem);
     }
+    
+    .personal_icons {
+        width: 200px;
+        height: 200px;
+    }
+    
 }
