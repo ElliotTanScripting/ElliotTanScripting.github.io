@@ -879,7 +879,11 @@ a {
     .about_details {
         position: relative;
     }
-
+    .contact_picture {
+        margin-top: 5rem;
+        height: 500px;
+        width: 500px;
+    }
     .resume_container {
         width: 100%;
         flex-direction: column; 
