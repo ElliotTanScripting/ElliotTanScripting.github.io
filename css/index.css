@@ -787,7 +787,7 @@ a {
     margin-top: 100px;
 }
 /* tablet */
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .content {
         position: relative;
         height: auto;
@@ -859,7 +859,7 @@ a {
 
 
 /* mobile */
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .main_section {
         width: 100%;
     }
