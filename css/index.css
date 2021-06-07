@@ -822,6 +822,10 @@ a {
         flex-direction: column; 
     }
 
+    .card_content_layer > .github_link {
+        top: 60%;
+    }
+
     .title_name {
         text-align: center;
         padding-left: 1rem;
@@ -833,27 +837,24 @@ a {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-
-    .title_text {
-
-    }
-
     .experience_card {
         width: 100%;
     }
+
+
 
     .experience_card > * {
         width: inherit;
     }    
     .icon_item {
-        padding-left: 4rem;
-        padding-right: 4rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
         padding-top: 3rem;
     }
     
     .personal_icons {
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
     }
 }
 
@@ -931,9 +932,9 @@ a {
     .nav_menu ul li a {
         text-align: center;
         display: block;
-        padding: 3em 4em;
+        padding: 3em 3em;
         font-family: var(--title_font_family);
-        font-size: 1.3rem;
+        font-size: 3rem;
         font-weight: var(--nav_font_weight);
         letter-spacing: unset;
         text-decoration: none;
@@ -977,23 +978,25 @@ a {
     .hamburger,
     .hamburger:before,
     .hamburger:after {
+        right: 3rem;
+        top: 3rem;
         position: fixed;
         display: block;
         content: '';
         background: var(--main_clr_1);
-        height: 3px;
-        width: 1.65rem;
+        height: 5px;
+        width: 3rem;
         border-radius: 4px;
         color: none;
         transition: all ease-in-out 400ms;
     }
     /* differences calculated from the top of the center line*/ 
     .hamburger:before {
-        transform: translateY(-8px);
+        transform: translateY(-12px);
     } 
 
     .hamburger:after {
-        transform: translateY(8px);
+        transform: translateY(12px);
     }
 
     .open .hamburger {
@@ -1005,7 +1008,7 @@ a {
     }
 
     .open .hamburger::after {
-        transform: translateY(0px) rotate(-90deg) ;
+        transform: translate(48px, -48px) rotate(-90deg) ;
     }
 
     /* mobile content styles */
@@ -1037,13 +1040,13 @@ a {
     }
 
     .icon_item {
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-top: 3rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        padding-top: 6rem;
     }
     
     .personal_icons {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
     }
 }
