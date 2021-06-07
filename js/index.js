@@ -102,6 +102,7 @@ $(".nav_button").click(function() {
 
 $(".experience_card").click(function() {
     $(this).children(".card_title_layer").toggleClass("card_title_layer_out", 300);
+    $(this).children(".card_title_layer").children(".card_type").toggleClass("card_type_up", 300);
 })
 
 // hovering personal icons

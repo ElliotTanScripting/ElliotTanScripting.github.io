@@ -507,8 +507,10 @@ a {
 
 .card_title_layer_out {
     opacity: 0;
-    z-index: 10;
+    z-index: 8;
     height: 0;
+    width: 0;
+    transform: translateY(-50%);
 }
 
 .card_title_layer_out:hover {
@@ -523,6 +525,10 @@ a {
 .card_title_layer .card_type {
     position: relative;
     height: 35%;
+}
+
+.card_title_layer .card_type_up {
+    
 }
 
 .card_title_layer .card_arrow {
@@ -587,6 +593,11 @@ a {
     text-align: right;
     padding-top: 7%;
     padding-right: 4%;
+}
+
+.card_content_layer > .github_link > a{
+    padding: 1rem;
+    z-index: 9;
 }
 
 .card_content_layer > .github_link:hover {
