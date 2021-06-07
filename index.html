@@ -1,32 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Home Page</title>
-<link href="./css/index.css" rel="stylesheet" type="text/css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Elliot Tan: Data Scientist, Web Developer</title>
+        <link href="./css/index.css" rel="stylesheet" type="text/css">
+        <meta name="description" content="Elliot Tan's personal website.">
+        <meta name="author" content="Elliot Tan">
+        <meta name="keywords" content="Data Science, Machine Learning, Computer Science, Web Developer, Python, Java, C, HTML, CSS, Javascript">
+    </head>
 
-<body>
-	<header>
-		<div class="container">
-			<h1 id="topname">Elliot Tan</h1>
-			<nav>
-				<ul>
-				  <li><a href="./index.html" class="navbutton">Home</a></li>
-				  <li><a href="./Resume.html" class="navbutton">Resume</a></li>
-				  <li><a href="./Projects.html" class="navbutton">Projects</a></li>
-				  <li><a href="./Hobbies.html" class="navbutton">Hobbies</a></li>
-				  <li><a href="./Contact.html" class="navbutton">Contact</a></li>
-				</ul>
-			</nav>
+    <body>
+        <div class="nav_container">
+            <nav class="nav_menu">
+                <ul>
+                    <li><a href="#About_section" class="active nav_button" id="About_button">About</a></li>
+                    <li><a href="#Experience_section" class="nav_button" id="Experience_button">Experience</a></li>
+                    <li><a href="#LangTools_section" class="nav_button" id="LangTools_button">Languages & Tools</a></li>
+                    <li><a href="#Personal_section" class="nav_button" id="Personal_button">Personal</a></li>
+                    <li><a href="#Contact_section" class="nav_button" id="Contact_button">Let's Connect</a></li>
+                </ul>
+            </nav>
+            <div class="nav_toggle">
+                <div class="hamburger"></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <section class="main_section" id="About_section">
+                <div class="about_finder"></div>
+                <div class="about_content">
+                    <div class="about_title">
+                        <div class="title_name">
+                            <h1>Elliot Tan</h1>
+                        </div>
+                        <div class="title_text_line">
+                            <div class="title_text"><h3>Data Scientist.</h3></div>
+                            <div class="title_text"><h3>Computer Scientist.</h3></div>
+                            <div class="title_text"><h3>Web developer.</h3></div>
+                            <div class="title_text"><h3>Musician.</h3></div>
+                            <div class="title_text"><h3>Foodie.</h3></div>
+                        </div>
+                    </div>
+                    <div class="about_info">
+                        <p>Hello & welcome to my website!
+                            <br><br>
+                            I am an aspiring Data Scientist pursuing a <strong>Bachelors of Computer Science</strong> and <strong>Masters in Data Science</strong> at Illinois Institute of Technology.
+                            <br><br>
+                            Current GPA: <strong>3.928/4.0</strong>
+                            <br>
+                            Expected graduation: <strong>May 2022</strong>
+                            <br><br>
+                            Please keep scrolling to see what I've done, and feel free to contact me via the links down below :D</p>
+                    </div>
+                    <div class="about_details">
+                        <div class="contact_picture"></div>
+                        <div class="resume_container">
+                            <!--<div class="resume_text"><a href="mailto:etan1@hawk.iit.edu">etan1@hawk.iit.edu</a></div>
+                            <div class="resume_text"><a href="https://www.linkedin.com/in/elliot-tan" target="_blank">Linked In</a></div> -->
+                            <div class="resume_text"><a href="./documents/Resume.pdf" download><strong class="myres_text">My Resume</strong></a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main_section" id="Experience_section">
+                <div class="experience_finder"></div>
+                <div class="experience_content">
+                    <div class="main_section_title">
+                        <h2>I've worked on</h2>
+                    </div>
+                    <div class="experience_card_container">
+                        <div class="experience_card" >
+                            <div class="card_title_layer">
+                                <div class="card_title">
+                                    <h3>Effectiveness of generated data on hatespeech classifiers</h3>
+                                </div>
+                                <div class="card_type">
+                                    <h4>Data mining & analysis</h4>
+                                </div>
+                                <div class="card_arrow">
+                                    <img src="./svgs/upArrow.svg" alt="up arrow svg" class="up_arrow_svg"/>
+                                </div>
+                            </div>
+                            <div class="card_content_layer">
+                                <div class="tools_used">
+                                    <ul>
+                                        <li><p>Python, pandas</p></li>
+                                        <li><p>Microsoft Excel</p></li>
+                                        <li><p>GPT-2</p></li>
+                                        <li><p>BERT</p></li>
+                                        <li><p>SVM</p></li>
+                                    </ul>
+                                </div>
+                                <div class="github_link">
+                                    <a href="https://github.com/ElliotTanIIT/cs522" target="_blank">Visit Github Repo</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience_card">
+                            <div class="card_title_layer">
+                                <div class="card_title">
+                                    <h3>Job search scaper</h3>
+                                </div>
+                                <div class="card_type">
+                                    <h4>Data mining & analysis</h4>
+                                </div>
+                                <div class="card_arrow">
+                                    <img src="./svgs/upArrow.svg" alt="up arrow svg" class="up_arrow_svg"/>
+                                </div>
+                            </div>
+                            <div class="card_content_layer">
+                                <div class="tools_used">
+                                    <ul>
+                                        <li><p>Python, Beautiful Soup</p></li>
+                                        <li><p>HTML</p></li>
+                                        <li><p>Microsoft Excel</p></li>
+                                    </ul>
+                                </div>
+                                <div class="github_link">
+                                    <a href="somelink" target="_blank">in the works!</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience_card">
+                            <div class="card_title_layer">
+                                <div class="card_title">
+                                    <h3>Exploring the computational and functional capabilities of InfluxDB and TimescaleDB</h3>
+                                </div>
+                                <div class="card_type">
+                                    <h4>time series databases research</h4>
+                                </div>
+                                <div class="card_arrow">
+                                    <img src="./svgs/upArrow.svg" alt="up arrow svg" class="up_arrow_svg"/>
+                                </div>
+                            </div>
+                            <div class="card_content_layer">
+                                <div class="tools_used">
+                                    <ul>
+                                        <li><p>Time Series Benchmark Suite (TSBS)</p></li>
+                                        <li><p>InfluxDB</p></li>
+                                        <li><p>TimescaleDB</p></li>
+                                        <li><p>Ubuntu, Linux</p></li>
+                                    </ul>
+                                </div>
+                                <div class="github_link">
+                                    <a href="https://github.com/ElliotTanIIT/cs550-term-project" target="_blank">Visit Github Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="experience_card">
+                            <div class="card_title_layer">
+                                <div class="card_title">
+                                    <h3>Cru IIT Website</h3>
+                                </div>
+                                <div class="card_type">
+                                    <h4>web development</h4>
+                                </div>
+                                <div class="card_arrow">
+                                    <img src="./svgs/upArrow.svg" alt="up arrow svg" class="up_arrow_svg"/>
+                                </div>
+                            </div>
+                            <div class="card_content_layer">
+                                <div class="tools_used">
+                                    <ul>
+                                        <li><p>HTML</p></li>
+                                        <li><p>CSS</p></li>
+                                    </ul>
+                                </div>
+                                <div class="github_link">
+                                    <a href="https://mypages.iit.edu/~campuscru/" target="_blank">Visit Cru IIT website</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience_card">
+                            <div class="card_title_layer">
+                                <div class="card_title">
+                                    <h3>Personal Website</h3>
+                                </div>
+                                <div class="card_type">
+                                    <h4>web development</h4>
+                                </div>
+                                <div class="card_arrow">
+                                    <img src="./svgs/upArrow.svg" alt="up arrow svg" class="up_arrow_svg"/>
+                                </div>
+                            </div>
+                            <div class="card_content_layer">
+                                <div class="tools_used">
+                                    <ul>
+                                        <li><p>HTML</p></li>
+                                        <li><p>CSS</p></li>
+                                        <li><p>Javascript, jQuery</p></li>
+                                    </ul>
+                                </div>
+                                <div class="github_link">
+                                    <a href="#About_section" target="_blank">You're on it!</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience_card">
+                            <div class="card_title_layer">
+                                <div class="card_title">
+                                    <h3>Flight Booking Simulator</h3>
+                                </div>
+                                <div class="card_type">
+                                    <h4>full stack software development</h4>
+                                </div>
+                                <div class="card_arrow">
+                                    <img src="./svgs/upArrow.svg" alt="up arrow svg" class="up_arrow_svg"/>
+                                </div>
+                            </div>
+                            <div class="card_content_layer">
+                                <div class="tools_used">
+                                    <ul>
+                                        <li><p>Java, javaswing, JFrame, JBDC</p></li>
+                                        <li><p>SQL, PostgreSQL</p></li>
+                                        <li><p>ER models</p></li>
+                                    </ul>
+                                </div>
+                                <div class="github_link">
+                                    <a href="https://github.com/ElliotTanIIT/flightBookingSimulator" target="_blank">Visit Github Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience_card">
+                            <div class="card_title_layer">
+                                <div class="card_title">
+                                    <h3>Digital Marketing, UI/UX, and SEO for hiring management software</h3>
+                                </div>
+                                <div class="card_type">
+                                    <h4>Web development research</h4>
+                                </div>
+                                <div class="card_arrow">
+                                    <img src="./svgs/upArrow.svg" alt="up arrow svg" class="up_arrow_svg"/>
+                                </div>
+                            </div>
+                            <div class="card_content_layer">
+                                <div class="tools_used">
+                                    <ul>
+                                        <li><p>tool 1</p></li>
+                                        <li><p>tool 2</p></li>
+                                        <li><p>tool 3</p></li>
+                                    </ul>
+                                </div>
+                                <div class="github_link">
+                                    <a href="somelink" target="_blank">Visit Github Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main_section" id="LangTools_section">
+                <div class="langTools_finder"></div>
+                <div class="langTools_content">
+                    <div class="main_section_title">
+                        <h2>I can use</h2>
+                    </div>
+                    <div class="langTools_card_container">
+                        <div class="langTools_card"><h3><span class="langTool_to_fill">Python</span>.describe()</h3></div>
+                        <div class="langTools_card"><h3><span class="langTool_to_fill">Pandas</span>.dataframe()</h3></div>
+                        <div class="langTools_card"><h3><span class="langTool_to_fill">Tensorflow</span> as tf</h3></div>
+                        <div class="langTools_card"><h3>SELECT * FROM <span class="langTool_to_fill">SQL</span></h3></div>
+                        <div class="langTools_card"><h3><span class="langTool_to_fill">R</span>%>%func</h3></div>
+                        <div class="langTools_card"><h3>&lt;h1&gt;<span class="langTool_to_fill">HTML</span>&lt;&#47;h1&gt;</h3></div>
+                        <div class="langTools_card"><h3>.style{<span class="langTool_to_fill">CSS</span>}</h3></div>
+                        <div class="langTools_card"><h3>$(<span class="langTool_to_fill">Javascript</span>)</h3></div>
+                        <div class="langTools_card"><h3>String OldOak = <span class="langTool_to_fill">Java</span></h3></div>
+                        <div class="langTools_card"><h3>malloc(<span class="langTool_to_fill">C</span>)</h3></div>
+                        <div class="langTools_card"><h3>let <span class="langTool_to_fill">OCaml</span> = func</h3></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main_section" id="Personal_section">
+                <div class="personal_finder"></div>
+                <div class="personal_content">
+                    <div class="main_section_title">
+                        <h2>I enjoy</h2>
+                    </div>
+                    <div class="revolving_icons_container">
+                        <div class="icon_item"><img src="./svgs/guitar.svg" alt="guitar svg img" class="personal_icons"/></div>
+                        <div class="icon_item"><img src="./svgs/keyboard.svg" alt="keyboard svg img" class="personal_icons"/></div>
+                        <div class="icon_item"><img src="./svgs/ramen.svg" alt="ramen svg img" class="personal_icons"/></div>
+                        <div class="icon_item"><img src="./svgs/dimSum.svg" alt="dim sum svg img" class="personal_icons"/></div>
+                        <div class="icon_item"><img src="./svgs/bubbleTea.svg" alt="bubble tea svg img" class="personal_icons"/></div>
+                        <div class="icon_item"><img src="./svgs/basketball.svg" alt="basketball svg img" class="personal_icons"/></div>
+                        <div class="icon_item"><img src="./svgs/frisbee.svg" alt="frisbee svg img" class="personal_icons"/></div>
+                        <div class="icon_item"><img src="./svgs/dumbell.svg" alt="dumbell svg img" class="personal_icons"/></div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="main_section" id="Contact_section">
+                <div class="contact_finder"></div>
+                <div class="contact_content">
+                    <div class="main_section_title">
+                        <h2>Let's Connect</h2>
+                    </div>
+                    <div class="contact_links_container">
+                        <div class="contact_link" id="email_contact_link"><a class="mailtoui" href="mailto:etan1@hawk.iit.edu"><img src="./svgs/email.svg" alt="email svg img" class="contact_icons"/></a></div>
+                        <div class="contact_link" id="linkedin_contact_link"><a href="https://www.linkedin.com/in/elliot-tan" target="_blank"><img src="./svgs/linkedin.svg" alt="linkedins svg img" class="contact_icons"/></a></div>
+                    </div>
+                </div>
+            </section>
+            <section class="main_section" id="svg_credit">
+                <div class="main_section_title">
+                    <h2>SVG credit</h2>
+                </div>
+                <div class="svg_credit_container">
+                    <div class="svg_credit_item"><h3><a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></h3></div>
+                    <div class="svg_credit_item"><h3><a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></h3></div>
+                    <div class="svg_credit_item"><h3><a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></h3></div>
+                    <div class="svg_credit_item"><h3><a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></h3></div>
+                    <div class="svg_credit_item"><h3><a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></h3></div>
+                </div>
+            </section>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+            <script src="js/index.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/mailtoui@1.0.3/dist/mailtoui-min.js"></script>
 		</div>
-	</header>
-	<div class="container">
-		<h2 id="hello">Hello!</h2>
-		<p>Welcome to my website! I am 3rd year Co-terminal student pursuing a Bachelors of Computer Science and Masters in Computer Science with a concentration on Data Analytics at Illinois Institute of Technology.</p>
-		<p>Why Data Analytics? As I continue to study in computer science, I've found the art of pulling information from data and communicating it not only interesting, but beautiful. It is not only something to marvel at, but could also have an immeasurable impact on society.
-		<p>I am currently looking for a summer 2021 internship. Please check out the rest of my website to see my past experiences, projects, and hobbies using the navigation bar above.</p>
-		
-	</div>
-</body>
+    </body>
+        
+        
+
+
 </html>
