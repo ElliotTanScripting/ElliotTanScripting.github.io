@@ -788,6 +788,36 @@ a {
 }
 /* tablet */
 @media (max-width: 1200px) {
+    h1 {
+        font-size: 8rem;
+        letter-spacing: 1rem;
+    }
+    
+    h2 {
+        font-size: 5rem;
+        letter-spacing: 0.4rem;
+    }
+    
+    h3 {
+        font-size: 3rem;
+        letter-spacing: 0.15rem;
+    }
+    
+    h4 {
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+    
+    p {
+        font-family: var(--text_font_family);
+        font-weight: 400;
+        font-size: 2rem;
+        color: var(--main_clr_2);
+        line-height: 2.5rem;
+    }
+    .title_name {
+        padding-top: 5rem;
+    }
     .content {
         position: relative;
         height: auto;
@@ -821,11 +851,27 @@ a {
         width: 100%;
         flex-direction: column; 
     }
+    .experience_card {
+        height: 400px;
+    }
 
+    .card_title_layer {
+        height: 400px;
+    }
+    
+    .card_content_layer {
+        height: 400px;
+    }
+    .card_content_layer > .tools_used li p {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
     .card_content_layer > .github_link {
         top: 60%;
     }
-
+    .card_content_layer > .github_link > a{
+        font-size: 3rem;
+    }
     .title_name {
         text-align: center;
         padding-left: 1rem;
@@ -840,21 +886,33 @@ a {
     .experience_card {
         width: 100%;
     }
-
-
-
     .experience_card > * {
         width: inherit;
     }    
+    .langTools_card_container {
+        flex-direction: column;
+    }
+    .langTools_card {
+        height: 150px;
+    }
     .icon_item {
         padding-left: 7rem;
         padding-right: 7rem;
         padding-top: 3rem;
     }
-    
     .personal_icons {
         width: 100px;
         height: 100px;
+    }
+    .svg_credit_item h3{
+        text-align: center;
+        font-size: 1.4rem;
+        letter-spacing: 0.05rem;
+    }
+    .svg_credit_item a {
+        line-height: 2rem;
+        font-size: 2rem;
+        font-weight: 600;
     }
 }
 
