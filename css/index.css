@@ -890,11 +890,12 @@ a {
     .experience_card {
         height: 400px;
     }
-
     .card_title_layer {
         height: 400px;
     }
-    
+    .card_title {
+        line-height: 3.2rem;
+    }
     .card_content_layer {
         height: 400px;
     }
