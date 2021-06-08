@@ -416,23 +416,15 @@ a {
 }
 
 .resume_text {
-    padding-top: 4rem;
+    padding: 1.5rem;
     transition: 200ms;
-}
-
-
-
-.myres_text::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    left: 0;
-    height: 1px;
-    width: 10px;
+    border: 3px solid var(--main_clr_1);
+    border-radius: 6px;
+    transform: translate(0, 3rem);
 }
 
 .resume_text:hover {
-    transform: translateX(2%);
+    transform: translate(1rem, 3rem);
 }
 
 .resume_text a {
@@ -885,8 +877,15 @@ a {
         width: 500px;
     }
     .resume_container {
-        width: 100%;
+        width: auto;
         flex-direction: column; 
+    }
+    .resume_text {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .resume_text a {
+        font-size: 3.5rem;
     }
     .experience_card {
         height: 400px;
