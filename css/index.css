@@ -398,6 +398,10 @@ a {
     padding-top: 0%;
 }
 
+.about_info strong {
+    font-size: 1.6rem;
+}
+
 .about_details {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -416,11 +420,13 @@ a {
 }
 
 .resume_text {
+    background-color: var(--background_accent_clr);
     padding: 1.5rem;
     transition: 200ms;
     border: 3px solid var(--main_clr_1);
     border-radius: 6px;
     transform: translate(0, 3rem);
+    box-shadow: 0.5px 2.5px 1px 0.5px var(--main_clr_1);
 }
 
 .resume_text:hover {
@@ -430,6 +436,7 @@ a {
 .resume_text a {
     color: var(--main_clr_2);
     font-size: 2rem;
+    
 }
 
 .contact_picture {
