@@ -684,7 +684,7 @@ a {
     position: absolute;
     padding: 0;
     white-space: nowrap;
-    transition: all ease-in-out 600ms;
+    transition: all ease-in-out 400ms;
     z-index: 2;
     opacity: 0;
     font-size: 0;
