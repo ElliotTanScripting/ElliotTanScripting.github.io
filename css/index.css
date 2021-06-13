@@ -542,24 +542,24 @@ a {
     line-height: 2rem;
 }
 
-.up_arrow_svg {
+.click_svg {
     width: 30px;
     height: auto;
     transform: translate(20px, 20px);
-    animation: swipeUp 1.5s infinite;
+    animation: clickMe 1.5s infinite;
 }
 
-@keyframes swipeUp {
+@keyframes clickMe {
     0% {
-        transform: translate(20px, 20px);
         opacity: 0;
     }
-    20%{
-        transform: translate(20px, 20px);
+    20% {
+        opacity: 1;
+    }
+    80% {
         opacity: 1;
     }
     100% {
-        transform: translate(20px, -20px);
         opacity: 0;
     }
 }
@@ -933,6 +933,10 @@ a {
     .experience_card > * {
         width: inherit;
     }    
+    .click_svg {
+        width: 50px;
+        transform: translate(0px, 0px);
+    }
     .langTools_card_container {
         flex-direction: column;
     }
