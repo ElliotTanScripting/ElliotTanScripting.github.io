@@ -472,7 +472,7 @@ a {
 
 .experience_card {
     height: var(--card_h);
-    width: 402px;
+    width: 400px;
     margin-bottom: 2rem;
     z-index: 1;
 }
@@ -482,7 +482,7 @@ a {
     background-color: var(--background_clr);
     padding: 1.5rem;
     height: var(--card_h);
-    width: 400px;
+    width: inherit;
     overflow-wrap: break-word;
     position: absolute;
     z-index: 10;
@@ -523,7 +523,8 @@ a {
 
 .card_title_layer .card_type {
     position: relative;
-    height: 35%;
+    height: 20%;
+    transform: translateY(100%);
 }
 
 .card_title_layer .card_arrow {
@@ -568,7 +569,7 @@ a {
     background-color: var(--background_accent_clr);
     padding: 1.5rem;
     height: var(--card_h);
-    width: 400px;
+    width: inherit;
     position: absolute;
     z-index: 9;
     opacity: 1;
@@ -819,7 +820,7 @@ a {
     margin-top: 100px;
 }
 /* tablet */
-@media (max-width: 1200px) {
+@media (max-width: 1150px) {
     h1 {
         font-size: 8rem;
         letter-spacing: 1rem;
