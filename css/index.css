@@ -584,7 +584,7 @@ a {
     line-height: 1.7rem;
 }
 
-.card_content_layer > .github_link {
+.card_content_layer > .project_link {
     position: absolute;
     top: 70%;
     right: 0;
@@ -595,12 +595,12 @@ a {
     padding-right: 4%;
 }
 
-.card_content_layer > .github_link > a{
+.card_content_layer > .project_link > a{
     padding: 1rem;
     z-index: 9;
 }
 
-.card_content_layer > .github_link:hover {
+.card_content_layer > .project_link:hover {
     transform: translateX(5%);
 }
 
@@ -911,10 +911,10 @@ a {
         font-size: 3rem;
         line-height: 4rem;
     }
-    .card_content_layer > .github_link {
+    .card_content_layer > .project_link {
         top: 60%;
     }
-    .card_content_layer > .github_link > a{
+    .card_content_layer > .project_link > a{
         font-size: 3rem;
     }
     .title_name {
