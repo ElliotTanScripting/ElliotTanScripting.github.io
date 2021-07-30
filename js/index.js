@@ -107,14 +107,14 @@ $(".experience_card").click(function() {
 
 // hovering personal icons
 $(".icon_item").hover(function() {
-    $(this).addClass("icon_text_hover", 1500);
+    $(this).addClass("icon_text_hover", 1000);
 }, function() {
     $(this).removeClass("icon_text_hover", 1500);
 })
 
 // hovering contact icons
 $(".contact_icons").hover(function() {
-    $(this).addClass("contact_icons_hover", 1500);
+    $(this).addClass("contact_icons_hover", 1000);
 }, function() {
     $(this).removeClass("contact_icons_hover", 1500);
 })
